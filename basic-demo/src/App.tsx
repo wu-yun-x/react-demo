@@ -1,10 +1,17 @@
+/*
+ * @Author: st004362
+ * @Date: 2025-04-03 11:13:05
+ * @LastEditors: ST/St004362
+ * @LastEditTime: 2025-09-24 14:51:28
+ * @Description: APP
+ */
 import "./App.css";
-import ParentComponent from "./views/useImperativeHandle";
+import Page from "./views/useImperactiveHandle";
 
 function App() {
   return (
     <>
-      <ParentComponent />
+      <Page />
     </>
   );
 }
