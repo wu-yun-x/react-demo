@@ -6,12 +6,12 @@
  * @Description: APP
  */
 import "./App.css";
-import Page from "./views/useImperactiveHandle";
+import UseInsertionEffectDemo from "./views/useInsertionEffect";
 
 function App() {
   return (
     <>
-      <Page />
+      <UseInsertionEffectDemo />
     </>
   );
 }
