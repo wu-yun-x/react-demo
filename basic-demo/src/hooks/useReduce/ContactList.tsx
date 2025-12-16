@@ -2,14 +2,12 @@
  * @Author: st004362
  * @Date: 2025-04-03 13:51:19
  * @LastEditors: ST/St004362
- * @LastEditTime: 2025-04-03 15:56:06
+ * @LastEditTime: 2025-12-16 13:43:54
  * @Description: 
  */
 
-import {MessageAction} from './types'
+import { MessageAction } from './types'
 import { Contact } from './types.ts';
-
-
 
 // 定义 ContactList 组件的 props 类型
 interface ContactListProps {
