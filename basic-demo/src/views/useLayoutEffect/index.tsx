@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonWithTooltip from "./ButtonWithTooltip";
 
-const APP: React.FC = () => {
+const LayoutEffect: React.FC = () => {
   return (
     <div>
       <ButtonWithTooltip
@@ -30,4 +30,4 @@ const APP: React.FC = () => {
   );
 };
 
-export default APP;
+export default LayoutEffect;

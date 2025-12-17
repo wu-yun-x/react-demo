@@ -30,7 +30,7 @@ function useCSS(rule: string, className: string) {
   return className;
 }
 
-export default function UseInsertionEffectDemo() {
+export default function InsertionEffectDemo() {
   const [isVisible, setIsVisible] = useState(true);
   const [color, setColor] = useState("red");
   const [size, setSize] = useState("16px");

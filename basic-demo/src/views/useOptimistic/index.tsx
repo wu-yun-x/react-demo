@@ -2,7 +2,7 @@
  * @Author: st004362
  * @Date: 2025-12-16 16:12:38
  * @LastEditors: ST/St004362
- * @LastEditTime: 2025-12-16 17:07:53
+ * @LastEditTime: 2025-12-17 11:39:58
  * @Description: useOptimistic
  */
 
@@ -74,7 +74,7 @@ function Thread({ messages, sendMessageAction }: ThreadProps) {
   );
 }
 
-export default function App() {
+export default function Optimistic() {
   const [messages, setMessages] = useState<Message[]>([
     { text: "你好，在这儿！", sending: false },
   ]);
